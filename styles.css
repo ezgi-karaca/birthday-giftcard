@@ -1,7 +1,7 @@
 body {
   font-family: "Happy Monkey", system-ui;
   text-align: center;
-  background: #f4a261;
+  background: linear-gradient(#f4a261, rgb(255, 192, 141), #f4a261);
   color: #ffffff;
 }
 
@@ -33,6 +33,17 @@ h1, h2, h3, h4, p {
   margin: 0;
   padding: 5px 10px;
   border-radius: 5px;
+}
+
+#audio-text {
+  background: #ca6702 ;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#emoji{
+  margin-top: 0;
+  font-size: xx-large;
 }
 .gift-section {
   margin-top: 40px;
@@ -80,6 +91,7 @@ h1, h2, h3, h4, p {
 }
 #gift-img-cheers {
   height: 300px;
+
 }
 
 #gift-img-cheers:hover {
